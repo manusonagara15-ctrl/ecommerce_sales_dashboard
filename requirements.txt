@@ -1,0 +1,22 @@
+# Affordable Indian Stock Market Trading Bot Dependencies
+# All libraries are free and open-source
+
+# Data and Analysis
+yfinance>=0.2.38
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+streamlit>=1.30.0
+
+# Indian Broker APIs (Both have ₹0 API subscription charges!)
+# Dhan HQ Python SDK:
+dhanhq>=2.0.0
+# Angel One SmartAPI (Alternative free option):
+smartapi-python>=1.4.0
+
+# Security & Authentication (Required for SEBI 2FA / TOTP)
+pyotp>=2.9.0
+python-dotenv>=1.0.0
+
+# Utilities
+requests>=2.31.0

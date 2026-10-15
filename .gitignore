@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Sensitive Credentials
+.env
+.env.local
+*.pem
+*.key
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing & Linting artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Streamlit local runtime
+.streamlit/secrets.toml
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local runtime state & test runs
+data/paper_trading_state.json*
+data/test_paper/
+data/test_risk/
+logs/
