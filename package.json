@@ -1,0 +1,20 @@
+{
+  "name": "algotrader-india-terminal",
+  "version": "1.0.0",
+  "description": "Institutional-grade Indian Stock Market Trading Bot & Analytics Terminal with SEBI-compliant risk controls and real-time execution",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "node server.cjs",
+    "build": "cd frontend && npx vite build"
+  },
+  "keywords": [
+    "trading-bot",
+    "nse",
+    "algotrader",
+    "indian-stock-market",
+    "dashboard"
+  ],
+  "author": "Maheshvaree Sonagara",
+  "license": "MIT"
+}
